@@ -1,7 +1,3 @@
-div {
-    position: fixed;
-    height: 100px;
-    width: 100%;
-    
-    background-color: green;
+* {
+    font-family: 'Comic Sans';
 }
