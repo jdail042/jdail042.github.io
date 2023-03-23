@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+   
+}
+
+body {
+    margin: 0;
+    background: rgb(100, 200, 120);
+    background-size: 200px;
+    background-repeat: repeat;
+}
+
+header {
+    height: 75px;
+    width: 100%;
+    background-color: mediumseagreen;
+    background: gradient(#64C878, #3CB371 25%, #3CB371 75%, #64C878);
+    position: fixed;
+    border-bottom: 4px solid #48a772;
+    z-index: 99;
+}
+
+#birb {
+    
+    position: absolute;
+    top: -10%;
+    height: 140%;
+    left: -100px;
+}
+
+header h1 {
+    position: absolute;
+    top: 0; 
+    bottom: 0;
+    margin: auto;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    display: inline-block;
+    font-size: 2em;
+    left: 30%;
+    color: #013220;
+}
+
+#title {
+    top: -10; 
+    bottom: 0;
+    margin: auto;
+    font-size: 3em;
+    font-family: 'Comic Sans MS', monospace;
+    left: 75px;
+}
+
+button{
+    position: absolute;
+    top: 0; 
+    bottom: 0;
+    margin: auto;
+    height: 75%;
+    width: 11.5%;
+    opacity: 1;
+    padding: 2px;
+    border-radius: 10px;
+    border: 3, solid, #013220;
+    background-color: #48a772;
+    font-size: 2em;
+    font-family: 'Trebuchet MS';
+    left: 75%;
+}
+
+#setting {
+     left: 87.5%;
+     text-align: left;
+}
+
+button:hover {
+    background-color: rgb(100, 200, 120);
+}
+
+button:active {
+    background-color: #48a772;
+}
+
+#setting img {
+    width: 40px;
+    position: absolute;
+    top: 0; 
+    bottom: 0;
+    margin: auto;
+    left: 74%
+}
+
+.post {
+    z-index: 0;
+    height: 300px;
+    width: 60%;
+    background-color: white;
+    position: absolute;
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 15px;
+    box-shadow: 5px 5px 30px  #013220, -5px -5px 20px rgb(130, 230, 130);
+    
+}
+.post > * {
+    padding: 20px;
+}
+
+#firstPost {
+    top: 100px;
+}

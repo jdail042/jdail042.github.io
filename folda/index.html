@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>PostBirdHome</title>
+        <link rel="stylesheet" href="shared-home.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header id="header">
+            
+            <img id="birb" src="./images/bird.png" >
+            <h1 id="title">postbird</h1>
+            <h1>Active Users: no one &#128532;</h1>
+            <button id="setting">settings<img src="./images/setting.png">                 </button>
+            <button>profile</button>
+            
+        </header>
+        <div class="post" id="firstPost">
+            <input id="colorpicker" type="color">
+            <h1>Post</h1>
+            <p></p>
+            <img>
+            <img>
+        </div>
+        <script>
+          const post = document.getElementById("firstPost");
+          document.getElementById("colorpicker")
+          .addEventListener("change",function()
+          {post.style.backgroundColor = this.value;});
+        </script>
+    </body>
+</html>
